@@ -1,5 +1,5 @@
 before_script:
-  - echo "nameserver 8.8.8.8\nnameserver 8.8.4.4" > /etc/resolv.conf
+  - sudo su -c 'echo "nameserver 8.8.8.8\nnameserver 8.8.4.4" > /etc/resolv.conf'
   - curl -i http://capybara1.elabs.se/host
 rvm:
   - 1.9.3
