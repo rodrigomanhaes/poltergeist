@@ -1,6 +1,7 @@
 before_script:
   - phantomjs --version
-  - curl -i http://capybara1.elabs.se/host
+  - cat /etc/hosts
+  - cat /etc/resolv.conf
 rvm:
   - 1.9.3
   # - 1.9.2
